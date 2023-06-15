@@ -1,0 +1,11 @@
+{
+    "schedule": "weekly",
+    "ignoredFiles": [
+        "*.svg"
+    ],
+    "aggressiveCompression": true,
+    "compressWiki": true,
+    "minKBReduced": 10,
+    "prTitle": "Improve Image Optimization",
+    "prBody": "Hello! 👋\n\nI've made some improvements to our image optimization process. This PR aims to enhance the overall efficiency and reduce file sizes for a better user experience. Here's a summary of the changes:\n\n- **Schedule:** The image optimization process will now run on a {schedule} basis.\n- **Ignored Files:** We are now ignoring SVG files for optimization.\n- **Aggressive Compression:** Enabled aggressive compression to further reduce file sizes.\n- **Compress Wiki:** Optimized images in the Wiki section to enhance performance.\n- **Minimum Size Reduction:** We'll delay new PRs until the size reduction meets a threshold of {minKBReduced} KB.\n\nBefore Optimization:\n- Ratio: {optimization_ratio}\n- Details: {optimization_details}\n\nAfter Optimization:\n- Ratio: {optimization_ratio}\n- Details: {optimization_details}\n\nPlease review these changes and provide your feedback. Thank you!\n"
+}
